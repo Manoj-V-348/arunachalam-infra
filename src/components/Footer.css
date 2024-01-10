@@ -1,0 +1,78 @@
+footer {
+  text-align: center;
+  background-color: var(--textColor);
+  color: var(--bodyColorLighter);
+  padding: 20px 100px;
+}
+footer > h1 {
+  padding-bottom: 30px;
+}
+.copyright {
+  font-size: 14px;
+  border-top: 1px solid var(--bodyColorLighter);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.contact--details,
+.copyright,
+.insta,
+.facebook,
+.social--media,
+.location,
+.branches,
+.real--details,
+.phone,
+.mail,
+.other--contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.social--media,
+.real--details,
+.other--contact {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading--text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact--details {
+  justify-content: space-around;
+}
+.contact--details a {
+  color: var(--bodyColorLighter);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.contact--details a:hover {
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+@media (max-width: 781px) {
+  footer {
+    padding: 20px;
+  }
+  .contact--details {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .contact--details,
+  .copyright,
+  .insta,
+  .facebook,
+  .social--media,
+  .location,
+  .branches,
+  .real--details,
+  .phone,
+  .mail,
+  .other--contact {
+    align-items: center;
+    justify-content: center;
+  }
+}

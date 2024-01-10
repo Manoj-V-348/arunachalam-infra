@@ -1,0 +1,76 @@
+.company--headquarters {
+  padding: 30px;
+  width: 100dvw;
+}
+.our--social--media,
+.company--headquarters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.company--headquarters > img {
+  width: 70%;
+}
+.social--media--heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.social--media--container {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.social--media {
+  padding: 20px;
+  background-color: var(--textColor);
+  color: var(--mainColor);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.social--media:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.contact--footer {
+  width: 100dvw;
+  padding: 10px;
+  background-color: #121212;
+  color: var(--mainColor);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact--container > h1 {
+  margin: 30px;
+}
+
+@media (max-width: 768px) {
+  .contact--container > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .company--headquarters > img {
+    width: 100%;
+  }
+  .company--headquarters > p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .social--media--container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact--footer {
+    font-size: 0.7rem;
+  }
+}

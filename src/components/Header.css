@@ -1,0 +1,176 @@
+.homepage {
+  background-color: var(--mainColor);
+}
+
+.button--styling {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid var(--textColor);
+  color: var(--textColor);
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+.homepage--description--top > a:hover,
+.button--styling:hover {
+  background-color: var(--textColor);
+  color: var(--mainColor);
+  cursor: pointer;
+}
+
+.homepage--description--bottom {
+  display: grid;
+  padding: 15px 30px;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  gap: 20px;
+}
+.homepage--description--bottom > p {
+  font-size: 0.9rem;
+  margin-right: auto;
+}
+.homepage--description--bottom > .big--text {
+  font-weight: 600;
+  font-size: 4rem;
+  color: var(--textColor);
+  margin-left: auto;
+  letter-spacing: 2px;
+  font-family: "Great Vibes", cursive;
+}
+.homepage--image--container {
+  padding: 15px 30px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+.homepage--image--container img {
+  width: 100%;
+  height: auto;
+}
+.home--image--homepage,
+.office--image--homepage {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 65% 35%;
+  gap: 20px;
+}
+.home--image--homepage > p,
+.office--image--homepage > P {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: auto 0;
+}
+.office--image--homepage {
+  grid-template-columns: 40% 60%;
+}
+.bold--text {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.about--container--homepage {
+  margin: 50px 30px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+.about--details {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.about--heading {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.company--details--box--container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "projects . trust"
+    ". years .";
+}
+.details--box {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--textColor);
+  transition: all 0.3s ease;
+}
+.big--text {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.completed--projects {
+  background-color: var(--textColor);
+  color: var(--mainColor);
+  grid-area: projects;
+}
+.market--years {
+  grid-area: years;
+}
+.trustworthy {
+  grid-area: trust;
+}
+.box--style1:hover {
+  color: var(--textColor);
+  background-color: var(--mainColor);
+}
+.box--style2:hover {
+  color: var(--mainColor);
+  background-color: var(--textColor);
+}
+
+@media (max-width: 768px) {
+  .homepage--description--top {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .homepage--description--bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .homepage--description--bottom > .big--text {
+    font-size: 3rem;
+  }
+  .homepage--image--container {
+    display: flex;
+    flex-direction: column;
+  }
+  .home--image--homepage,
+  .office--image--homepage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .office--image--homepage {
+    flex-direction: column-reverse;
+  }
+  .home--image--homepage > p,
+  .office--image--homepage > p {
+    font-size: 1rem;
+  }
+  .about--container--homepage {
+    display: flex;
+    flex-direction: column;
+  }
+  .company--details--box--container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 15px;
+  }
+  .details--box {
+    padding: 30px 40px;
+  }
+}

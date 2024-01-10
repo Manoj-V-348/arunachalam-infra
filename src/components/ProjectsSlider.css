@@ -1,0 +1,62 @@
+.projects--wrapper {
+  padding: 10px 30px 30px 30px;
+}
+.projects--wrapper > p {
+  margin-bottom: 40px;
+}
+.projects-slider-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.projects-slider {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  display: none;
+  width: 700px;
+  height: auto;
+  animation-name: slidein;
+  animation-duration: 0.75s;
+}
+
+.slide > img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.left-btn {
+  left: 10px;
+}
+
+.right-btn {
+  right: 10px;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+    margin-left: 25%;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
+}

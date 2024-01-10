@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --mainColor: #e3ebd2;
+  --bodyColor: #81817d;
+  --bodyColorLighter: #b3b2ae;
+  --textColor: #262523;
+}
+.main--container {
+  height: 86.7vh;
+  color: var(--textColor);
+  padding: 2rem 2rem;
+}
+main {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--mainColor);
+  font-family: "Inter", sans-serif;
+}
