@@ -20,27 +20,27 @@ function Contact() {
         <p className="social--media--heading">Social Media</p>
         <div className="social--media--container">
           <a
-            className="instagram--account social--media"
+            className="instagram--account social--media--box"
             href="www.instagram.com"
           >
             <Icon icon="skill-icons:instagram" color="#b3b2ae" />
             <p>@Arunachalam_Infra</p>
           </a>
           <a
-            className="facebook--account social--media"
+            className="facebook--account social--media--box"
             href="www.facebook.com"
           >
             <Icon icon="logos:facebook" color="#b3b2ae" />
             <p>Arunachalam Infra</p>
           </a>
           <a
-            className="whatsapp--account social--media"
+            className="whatsapp--account social--media--box"
             href="www.whatsapp.com"
           >
             <Icon icon="gg:phone" color="#b3b2ae" />
             <p>7338809994</p>
           </a>
-          <a className="gmail--account social--media" href="www.gmail.com">
+          <a className="gmail--account social--media--box" href="www.gmail.com">
             <Icon icon="ri:mail-line" color="#b3b2ae" />
             <p>arunachalaminfra@gmail.com</p>
           </a>

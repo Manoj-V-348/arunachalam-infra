@@ -24,7 +24,7 @@
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
-.social--media {
+.social--media--box {
   padding: 20px;
   background-color: var(--textColor);
   color: var(--mainColor);
@@ -35,7 +35,7 @@
   transition: all 0.3s ease;
   text-decoration: none;
 }
-.social--media:hover {
+.social--media--box:hover {
   scale: 1.05;
   cursor: pointer;
 }
