@@ -60,7 +60,7 @@ const ProjectsSlider = () => {
       <p className="about--heading" data-aos="fade-right">
         //Projects
       </p>
-      <div className="projects-slider-container" data-aos="fade">
+      <div className="projects-slider-container">
         {/* Navigation Buttons */}
         {currentSlide > 1 && (
           <button className="slider-btn left-btn" onClick={prevSlide}>
@@ -74,7 +74,7 @@ const ProjectsSlider = () => {
         )}
 
         {/* Image Slider */}
-        <div className="projects-slider" data-aos="fade-up">
+        <div className="projects-slider">
           <div className="slide">
             <img src={project1} alt="Project 1" />
           </div>
