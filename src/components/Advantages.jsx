@@ -1,18 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import aos from "aos";
+import "aos/dist/aos.css";
 
 import "./Advantages.css";
 
 import vector from "../images/construction.png";
 
 function Advantages() {
+  useEffect(() => {
+    aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="advantages--wrapper">
-      <p className="about--heading">//Advantages</p>
+      <p className="about--heading" data-aos="fade-right">
+        //Advantages
+      </p>
 
       <div className="advantages--container">
         <div className="advantages">
-          <p className="advantages--heading">Rapid Construction</p>
-          <p>
+          <p className="advantages--heading" data-aos="fade-right">
+            Rapid Construction
+          </p>
+          <p data-aos="fade-right">
             "Experience swift project timelines with our advanced construction
             methods. At Arunachalam Infra, we prioritize efficiency without
             compromising quality, ensuring your vision becomes a reality
@@ -20,11 +31,11 @@ function Advantages() {
           </p>
         </div>
 
-        <div className="advantages drawing">
+        <div className="advantages drawing" data-aos="fade-up">
           <img src={vector} alt="construction" />
         </div>
 
-        <div className="advantages">
+        <div className="advantages" data-aos="fade-down">
           <p className="advantages--heading">Build Anywhere</p>
           <p>
             "Choose freedom with Arunachalam Infra. Our expertise extends beyond
@@ -34,7 +45,7 @@ function Advantages() {
           </p>
         </div>
 
-        <div className="advantages security">
+        <div className="advantages security" data-aos="fade-left">
           <p className="advantages--heading">Best Security</p>
           <p>
             "Your safety is our priority. Arunachalam Infra integrates

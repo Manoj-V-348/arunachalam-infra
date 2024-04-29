@@ -25,3 +25,8 @@ main {
   background-color: var(--mainColor);
   font-family: "Inter", sans-serif;
 }
+.project--img {
+  border-radius: 5px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 20px 20px 60px #ad9c69, -20px -20px 60px #cfcfcf;
+}

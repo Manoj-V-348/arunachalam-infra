@@ -10,11 +10,17 @@ function Footer() {
       <div className="contact--details">
         <div className="social--media">
           <p className="heading--text">Social Media</p>
-          <a className="insta" href="www.instagram.com">
+          <a
+            className="insta"
+            href="https://www.instagram.com/arunachalaminfra/"
+          >
             <Icon icon="skill-icons:instagram" color="#b3b2ae" />
             <p>@Arunachalam_Infra</p>
           </a>
-          <a className="facebook" href="www.facebook.com">
+          <a
+            className="facebook"
+            href="https://www.facebook.com/profile.php?id=61559151146055"
+          >
             <Icon icon="logos:facebook" color="#b3b2ae" />
             <p>Arunachalam Infra</p>
           </a>
@@ -22,11 +28,14 @@ function Footer() {
 
         <div className="other--contact" id="other--details">
           <p className="heading--text">Other</p>
-          <a className="phone" href="www.whatsapp.com">
+          <a className="phone" href="https://www.whatsapp.com">
             <Icon icon="gg:phone" color="#b3b2ae" />
             <p>7338809994</p>
           </a>
-          <a className="mail" href="www.gmail.com">
+          <a
+            className="mail"
+            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvmZDxdJthjMrFpRScPGMnZqpLDrtzGxPmWWJhZTGKHvpfSJzgjwrcmNSJvtvCrJjMNtkg"
+          >
             <Icon icon="ri:mail-line" color="#b3b2ae" />
             <p>arunachalaminfra@gmail.com</p>
           </a>
