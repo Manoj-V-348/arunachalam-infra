@@ -167,3 +167,7 @@ header > .desktop--nav {
     opacity: 1;
   }
 }
+
+header > .mobile--navbar {
+  z-index: 1;
+}
