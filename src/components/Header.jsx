@@ -20,7 +20,7 @@ function Header() {
           Transforming spaces with creativity and precision, we bring your
           architectural dreams to life.
         </p>
-        <p className="big--text" data-aos="fade-left">
+        <p className="big--text" data-aos="fade-right">
           Build Your Dreams.
         </p>
       </div>
@@ -32,7 +32,7 @@ function Header() {
             className="project--img"
             data-aos="fade-right"
           />
-          <p data-aos="fade-left">
+          <p data-aos="fade-up">
             "Crafting Dreams, Building Realities. Arunachalam Infra - Where
             Every Step Tells a Story of Elegance and Affordability."
           </p>

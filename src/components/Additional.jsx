@@ -50,7 +50,7 @@ function Additional() {
                 data-aos="fade-up"
               />
             </div>
-            <p className="side--description" data-aos="fade-left">
+            <p className="side--description" data-aos="fade-up">
               Comprehensive security systems tailored for your needs.
             </p>
           </div>
@@ -77,7 +77,7 @@ function Additional() {
                 src={img4}
                 alt="build5"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
               <p data-aos="fade-up">
                 Customized solutions for efficient data management.
@@ -105,13 +105,13 @@ function Additional() {
                 src={img5}
                 alt="build3"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-down"
               />
               <img
                 src={img6}
                 alt="build4"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
             </div>
           </div>
@@ -136,7 +136,7 @@ function Additional() {
                 src={img8}
                 alt="build5"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-down"
               />
               <p data-aos="fade-up">
                 Tailored packages to meet your computing needs.
@@ -171,7 +171,7 @@ function Additional() {
                 data-aos="fade-up"
               />
             </div>
-            <p className="side--description" data-aos="fade-left">
+            <p className="side--description" data-aos="fade-up">
               Sustainable energy solutions with solar power plants.
             </p>
           </div>

@@ -49,7 +49,7 @@ function Architecture() {
                 data-aos="fade-up"
               />
             </div>
-            <p className="side--description" data-aos="fade-left">
+            <p className="side--description" data-aos="fade-up">
               From contemporary to classic, we bring innovation to life.
             </p>
           </div>
@@ -107,7 +107,7 @@ function Architecture() {
                 src={img8}
                 alt="build5"
                 className="arch--images project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
               <p data-aos="fade-up">
                 Optimizing spaces for functionality and aesthetics.
@@ -137,7 +137,7 @@ function Architecture() {
                 src={img6}
                 alt="build5"
                 className="arch--images project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
               <p data-aos="fade-down">
                 Join us in shaping the future through architectural innovation.

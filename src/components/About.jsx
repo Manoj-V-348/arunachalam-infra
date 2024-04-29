@@ -49,7 +49,7 @@ function About() {
         </div>
         <div
           className="details--box trustworthy box--style2"
-          data-aos="fade-left"
+          data-aos="fade-up"
         >
           <p className="big--text">100%</p>
           <p>Trustworthy</p>

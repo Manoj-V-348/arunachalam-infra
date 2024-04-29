@@ -55,7 +55,7 @@ function Interior() {
                 data-aos="fade-up"
               />
             </div>
-            <p className="side--description" data-aos="fade-left">
+            <p className="side--description" data-aos="fade-up">
               Conceptualization to execution for a seamless experience.
             </p>
           </div>
@@ -80,13 +80,13 @@ function Interior() {
                 src={img3}
                 alt="build3"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
               <img
                 src={img4}
                 alt="build4"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
             </div>
           </div>
@@ -113,7 +113,7 @@ function Interior() {
                 src={img6}
                 alt="build5"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
               <p data-aos="fade-up">
                 Classic wood or modern materials for varied styles.
@@ -143,7 +143,7 @@ function Interior() {
                 src={img8}
                 alt="build5"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
               <p data-aos="fade-up">
                 Innovative solutions for space optimization.
@@ -177,7 +177,7 @@ function Interior() {
                 data-aos="fade-right"
               />
             </div>
-            <p className="side--description" data-aos="fade-left">
+            <p className="side--description" data-aos="fade-down">
               Tailored solutions from ambient to task lighting.
             </p>
           </div>
@@ -202,13 +202,13 @@ function Interior() {
                 src={img11}
                 alt="build3"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-down"
               />
               <img
                 src={img12}
                 alt="build4"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
             </div>
           </div>
@@ -235,7 +235,7 @@ function Interior() {
                 src={img14}
                 alt="build5"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
               <p data-aos="fade-up">Enhancing transparency and uniqueness.</p>
             </div>
@@ -263,7 +263,7 @@ function Interior() {
                 src={img16}
                 alt="build5"
                 className="project--img"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
               <p data-aos="fade-up">
                 Ergonomic desks and stylish storage options.

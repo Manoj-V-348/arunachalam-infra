@@ -45,7 +45,7 @@ function Advantages() {
           </p>
         </div>
 
-        <div className="advantages security" data-aos="fade-left">
+        <div className="advantages security" data-aos="fade-down">
           <p className="advantages--heading">Best Security</p>
           <p>
             "Your safety is our priority. Arunachalam Infra integrates

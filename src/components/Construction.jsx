@@ -39,7 +39,7 @@ function Construction() {
               <img src={img1} alt="build1" data-aos="fade-up" />
               <img src={img2} alt="build2" data-aos="fade-up" />
             </div>
-            <p className="side--description" data-aos="fade-left">
+            <p className="side--description" data-aos="fade-up">
               Each and every project of ours redefine skylines.
             </p>
           </div>
@@ -57,7 +57,7 @@ function Construction() {
               </p>
             </div>
             <div className="heading3--images--container">
-              <img src={img8} alt="build5" data-aos="fade-left" />
+              <img src={img8} alt="build5" data-aos="fade-up" />
               <p data-aos="fade-right">Your vision, our blueprint.</p>
             </div>
           </div>
@@ -96,7 +96,7 @@ function Construction() {
               </p>
             </div>
             <div className="heading3--images--container">
-              <img src={img6} alt="build5" data-aos="fade-left" />
+              <img src={img6} alt="build5" data-aos="fade-up" />
               <p data-aos="fade-up">
                 Constructions that are Classy and Elegant.
               </p>
